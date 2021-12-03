@@ -1,10 +1,10 @@
-# Project2: Continuous Control
+# Project 2: Continuous Control
  
 ### The Environment
 For this project, you will work with the Unity Reacher environment.
 
 <p align="center">
-<img width="80%" src="https://user-images.githubusercontent.com/95396618/144585373-58159d73-e732-4647-9034-37c00778b9b1.png"/>  
+<img width="80%" src="https://user-images.githubusercontent.com/95396618/144598667-7b47d6cd-778a-4bcc-8707-8ad94b4b9c3b.gif"/>  
 </p>  
 <p align="center">
 Unity ML-Agents Reacher Environment 
