@@ -19,9 +19,9 @@ The observation space consists of 33 variables corresponding to position, rotati
 For this project, you will **not** need to install Unity - this is because we have already built the environment for you, and you can download it from one of the links below. You need only select the environment that matches your operating system:
 
 ### Version 1: One (1) Agent
-* Mac OSX: <a href="https://github.com/AIinFinance/Project2-Continuous-Control/files/7649402/Reacher.app.zip" download>click here</a>
-* Windows (32-bit): <a href="https://github.com/AIinFinance/Project2-Continuous-Control/files/7649403/Reacher_Windows_x86.zip" download>click here</a>
-* Windows (64-bit): <a href="https://github.com/AIinFinance/Project2-Continuous-Control/files/7649404/Reacher_Windows_x86_64.zip" download>click here</a>
+* Mac OSX: <a href="https://github.com/AIinFinance/Project2-Continuous-Control/files/7649452/Reacher.app.zip" download>click here</a>
+* Windows (32-bit): <a href="https://github.com/AIinFinance/Project2-Continuous-Control/files/7649454/Reacher_Windows_x86.zip" download>click here</a>
+* Windows (64-bit): <a href="https://github.com/AIinFinance/Project2-Continuous-Control/files/7649456/Reacher_Windows_x86_64.zip" download>click here</a>
 
 ### Version 2: Twenty (20) Agents
 * Mac OSX: <a href="https://github.com/AIinFinance/Project2-Continuous-Control/files/7649402/Reacher.app.zip" download>click here</a>
