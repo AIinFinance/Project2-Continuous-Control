@@ -11,5 +11,9 @@ According to these facts, I made a few minor changes to the previous project’s
 
 # Plot of Rewards
 
+![p22](https://user-images.githubusercontent.com/95396618/144890322-645b737c-a2e1-4f80-81d1-86e40dd95e4b.PNG)
+![p2](https://user-images.githubusercontent.com/95396618/144890334-41d43c8d-b12e-48b7-bbe1-33cc4f174fb7.PNG)
+
+
 # Ideas for Future Work
 I want to try soft actor-critic method for future work. Unlike DDPG, which use deterministic policies, soft actor-critic uses a stochastic policy. Moreover, soft actor-critic model works in a similar manner to temporal difference approach. The critic in soft actor-critic model uses both the Q function and the value function. Thus, it might provide better performance compared to DDPG.
