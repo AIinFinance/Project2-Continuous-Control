@@ -5,7 +5,7 @@ Deep Deterministic Policy Gradient (DDPG) is an actor-critic method that takes a
 
 According to these facts, I made a few minor changes to the previous project’s learning algorithm. 
 
-1.	Add a policy network to `model.py` in the project 1: DDPG is an actor-critic method where the actor network estimates the policy, and the critic network evaluates the policy produced by the actor using the Q function. Thus, `model.py` in the project 2 has two networks.
+1.	Add a policy network to `model.py` in the first project: DDPG is an actor-critic method where the actor network estimates the policy, and the critic network evaluates the policy produced by the actor using the Q function. Thus, `model.py` in this project has two networks.
 2.	Ornstein–Uhlenbeck noise: DDPG uses deterministic policies. Thus, in order to avoid exploitation-exploration dilemma, we need to add a noise to the action selection process. This project uses the Ornstein–Uhlenbeck noise, which is described in `class` `OUNoise()` in `ddpg_agent.py`
 3.	Multi-agent framework: In order to embrace multiple agents, the variable `agent_size` is added to `class` `Agent()` in `ddpg_agent.py`.
 
