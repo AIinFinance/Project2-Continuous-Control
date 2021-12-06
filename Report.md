@@ -11,8 +11,15 @@ According to these facts, I made a few minor changes to the previous project’s
 
 # Plot of Rewards
 
-![p22](https://user-images.githubusercontent.com/95396618/144890322-645b737c-a2e1-4f80-81d1-86e40dd95e4b.PNG)
-![p2](https://user-images.githubusercontent.com/95396618/144890334-41d43c8d-b12e-48b7-bbe1-33cc4f174fb7.PNG)
+<p align="center">
+<img width="80%" src="https://user-images.githubusercontent.com/95396618/144890322-645b737c-a2e1-4f80-81d1-86e40dd95e4b.PNG"/>  
+</p>  
+
+<p align="center">
+<img width="80%" src="https://user-images.githubusercontent.com/95396618/144890334-41d43c8d-b12e-48b7-bbe1-33cc4f174fb7.PNG"/>  
+</p>  
+
+ 
 
 
 # Ideas for Future Work
