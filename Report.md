@@ -9,6 +9,32 @@ According to these facts, I made a few minor changes to the previous project’s
 2.	Ornstein–Uhlenbeck noise: DDPG uses deterministic policies. Thus, in order to avoid exploitation-exploration dilemma, we need to add a noise to the action selection process. This project uses the Ornstein–Uhlenbeck noise, which is described in `class` `OUNoise()` in `ddpg_agent.py`
 3.	Multi-agent framework: In order to embrace multiple agents, the variable `agent_size` is added to `class` `Agent()` in `ddpg_agent.py`.
 
+
+### Network Architecture
+
+Network architecture for the actor network:
+* two linear hidden layers with 128 nodes are used 
+* one batch normalization layer is inserted after the first hidden layer
+* activation functions: relu function for hidden layers and tanh for output layer are used. 
+
+Network architecture for the actor network:
+* two hidden linear layers with 128 nodes are used 
+* one batch normalization layer is inserted after the first hidden layer
+* activation functions: relu function for hidden layers and identity function for output layer is used. 
+
+### Hyperparameters
+
+Hyperparameters on the replay buffer 
+* Replay buffer size: BUFFER_SIZE = int(1e5)  
+* Minibatch size: BATCH_SIZE = 128        
+* Discount factor for the next Q-values: GAMMA = 0.99           
+
+Learning rates on actor and critic networks
+* Learning rate of the actor network : LR_ACTOR = 1e-3         
+* Learning rate of the critic network: LR_CRITIC = 1e-3         
+* Soft update of target parameters: TAU = 1e-3               
+
+
 # Plot of Rewards
 
 <p align="center">
